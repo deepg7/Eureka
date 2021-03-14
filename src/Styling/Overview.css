@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+.overview__content > h1 {
+  font-family: "Poppins";
+  font-size: 55px;
+  max-width: 700px;
+  line-height: 65px;
+  margin-left: 45px;
+}
+.overview__content > p {
+  font-family: "Noto Serif";
+  font-size: 22px;
+  color: rgb(0, 0, 0, 0.6);
+  max-width: 700px;
+  margin-left: 45px;
+}
+.overview {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  transform: translate(0%, 19%);
+}
+.overview__logo > img {
+  width: 457px;
+  height: 442px;
+}
+.bees > img {
+  width: 695px;
+  height: 245px;
+  transform: translate(92%, 59%);
+}
+.Ellipse51 {
+  height: 25px;
+  width: 25px;
+  transform: translate(4000%, 3400%);
+}
+.Ellipse53 {
+  height: 16px;
+  width: 16px;
+  transform: translate(1413%, 2105%);
+}
+.Ellipse60 {
+  height: 20px;
+  width: 20px;
+  transform: translate(2278%, 3654%);
+}
+.Ellipse63 {
+  height: 25px;
+  width: 25px;
+  transform: translate(2500%, 1571%);
+}

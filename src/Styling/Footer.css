@@ -1,0 +1,19 @@
+.main__footer {
+  transform: translate(0%, 104%);
+  background-color: #fdf1ad;
+  min-height: 350px;
+}
+.footer__left__logo > img {
+  width: 269px;
+  height: 115px;
+}
+.footer__left {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.footer__left__contact > p {
+  margin-left: 50px;
+  font-size: 20px;
+  color: rgb(0, 0, 0, 0.6);
+}

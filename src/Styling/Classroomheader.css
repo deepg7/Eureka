@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.header__right {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: space-evenly;
+  min-width: 604px;
+  font-size: 20px;
+  color: #2a9d8f;
+  font-family: Source Sans Pro;
+  border-bottom: 3px solid #f4a261;
+  margin-bottom: 32px;
+}
+.right__timetable,
+.right__homework,
+.right__quiz,
+.right__profile {
+  margin-top: 10px;
+  margin-bottom: 1px;
+  height: 20px;
+}

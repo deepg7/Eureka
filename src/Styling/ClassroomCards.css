@@ -1,0 +1,142 @@
+.card {
+  width: 521px;
+  height: 515px;
+  left: 105px;
+  top: 318px;
+  background: #fdf1ad;
+  box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 90px;
+  transform: translate(0%, 27%);
+}
+.mainsubjects {
+  margin-bottom: 10px;
+}
+.title__math {
+  position: absolute;
+  text-align: center;
+  width: 125px;
+  height: 60px;
+  left: 290px;
+  top: 33px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 60px;
+  border-bottom: 10px solid #fedd9e;
+  margin-bottom: 0px;
+}
+.title__science {
+  position: absolute;
+  width: 159px;
+  height: 60px;
+  left: 899px;
+  top: 33px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 41px;
+  line-height: 60px;
+  text-align: center;
+  border-bottom: 10px solid #fedd9e;
+}
+.stats > img {
+  width: 291px;
+  height: 314px;
+  transform: translate(46%, 27%);
+}
+.root > img {
+  height: 65px;
+  width: 103px;
+  transform: translate(30%, -117%);
+}
+.cube > img {
+  height: 135px;
+  width: 133px;
+  transform: translate(283%, -190%);
+}
+.joinmeet {
+  background: #fec89a;
+  width: 159px;
+  height: 50px;
+  border-radius: 12px;
+  outline: none;
+  font-style: normal;
+  font-weight: normal;
+  border: 2px solid #fec89a;
+  font-size: 18px;
+  color: #000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  align-items: center;
+  cursor: pointer;
+  transform: translate(54%, -191%);
+}
+.resources {
+  background: #fec89a;
+  width: 159px;
+  height: 50px;
+  border-radius: 12px;
+  outline: none;
+  font-style: normal;
+  font-weight: normal;
+  border: 2px solid #fec89a;
+  font-size: 18px;
+  color: #000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  align-items: center;
+  cursor: pointer;
+  transform: translate(85%, -194%);
+}
+.planet > img {
+  width: 352.32px;
+  height: 281.09px;
+  transform: translate(27%, 41%);
+}
+.atom > img {
+  width: 72.61px;
+  height: 70.08px;
+  transform: translate(139%, 39%);
+}
+.benzene > img {
+  width: 49.84px;
+  height: 47.9px;
+  transform: translate(762%, -466%);
+}
+.joinmeet__science {
+  background: #fec89a;
+  width: 159px;
+  height: 50px;
+  border-radius: 12px;
+  outline: none;
+  font-style: normal;
+  font-weight: normal;
+  border: 2px solid #fec89a;
+  font-size: 18px;
+  color: #000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  align-items: center;
+  cursor: pointer;
+  transform: translate(54%, 38%);
+}
+.resources__science {
+  background: #fec89a;
+  width: 159px;
+  height: 50px;
+  border-radius: 12px;
+  outline: none;
+  font-style: normal;
+  font-weight: normal;
+  border: 2px solid #fec89a;
+  font-size: 18px;
+  color: #000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  align-items: center;
+  cursor: pointer;
+  transform: translate(86%, 38%);
+}

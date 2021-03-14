@@ -1,0 +1,14 @@
+.header__main {
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 350px;
+  margin-bottom: -10px;
+}
+.header__main > h1 {
+  margin-bottom: 0px;
+  font-size: 42px;
+  margin-left: 81px;
+  border-bottom: 10px solid #f8e16c;
+  transform: translate(-23%, 59%);
+}

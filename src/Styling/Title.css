@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+.title__header > h1 {
+  position: absolute;
+  width: 630px;
+  height: 186px;
+  left: 387px;
+  top: 143px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 62px;
+  line-height: 93px;
+  text-align: center;
+}
+.highlight {
+  color: #f47458;
+}
+.title__image > img {
+  width: 1079px;
+  height: 811px;
+  transform: translate(12%, 29%);
+}
+.Ellipse54 {
+  height: 25px;
+  width: 25px;
+  transform: translate(265%, 2142%);
+}
+.Ellipse55 {
+  height: 16px;
+  width: 16px;
+  transform: translate(2367%, 1021%);
+}
+.Ellipse56 {
+  height: 20px;
+  width: 20px;
+  transform: translate(4650%, 0%);
+}
+.Ellipse57 {
+  height: 25px;
+  width: 25px;
+  transform: translate(4269%, 1400%);
+}
+.Ellipse61 {
+  height: 25px;
+  width: 25px;
+  transform: translate(4678%, 4000%);
+}
+.Ellipse62 {
+  height: 25px;
+  width: 25px;
+  transform: translate(500%, 1200%);
+}

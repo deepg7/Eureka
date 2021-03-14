@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap");
+.card1 {
+  width: 439.31px;
+  height: 664.46px;
+  left: 105px;
+  top: 318px;
+  background: #fdf1ad;
+  box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+}
+
+.cards1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 139px;
+  transform: translate(-6%, 39%);
+}
+.signup_s {
+  background: #fec89a;
+  width: 159px;
+  height: 50px;
+  border-radius: 12px;
+  outline: none;
+  font-style: normal;
+  font-weight: normal;
+  border: 2px solid #fec89a;
+  font-size: 18px;
+  color: #000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  align-items: center;
+  cursor: pointer;
+  transform: translate(91%, 355%);
+}
+.signup_t {
+  background: #fec89a;
+  width: 159px;
+  height: 50px;
+  border-radius: 12px;
+  outline: none;
+  font-style: normal;
+  font-weight: normal;
+  border: 2px solid #fec89a;
+  font-size: 18px;
+  color: #000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  align-items: center;
+  cursor: pointer;
+  transform: translate(90%, 144%);
+}
+.teacher > .card1 > p {
+  color: rgb(0, 0, 0, 0.7);
+  font-family: "Noto Serif";
+  transform: translate(26%, 198%);
+  font-size: 26px;
+}
+.student > .card1 > p {
+  color: rgb(0, 0, 0, 0.7);
+  font-family: "Noto Serif";
+  transform: translate(26%, 482%);
+  font-size: 26px;
+}
+.teacher > .card1 > img {
+  transform: translate(59%, 15%);
+  height: 399px;
+  width: 204px;
+}
+.student > .card1 > img {
+  transform: translate(105%, 53%);
+  height: 296px;
+  width: 139px;
+}
+.bees2 > img {
+  height: 337px;
+  width: 822px;
+  z-index: 3;
+  position: absolute;
+  transform: translate(0%, 34%);
+}
+.Ellipse50 {
+  height: 25px;
+  width: 25px;
+  transform: translate(500%, 1600%);
+}
+.Ellipse52 {
+  height: 16px;
+  width: 16px;
+  transform: translate(0%, 0%);
+}
+.Ellipse58 {
+  height: 20px;
+  width: 20px;
+  transform: translate(0%, 0%);
+}
+.Ellipse59 {
+  height: 16px;
+  width: 16px;
+  transform: translate(568%, 5700%);
+}
