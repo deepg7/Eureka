@@ -72,7 +72,7 @@ The biggest accomplishment is that we were able to implement the video streaming
 
 ## Learnings from the project
 
-
+The most important thing that we learnt by participating in this hackathon is the importance of focusing on the main part by thinking about the track and not getting stuck in the secondary stuff that need not be added. Had we focused too much on the intricacies like css styling and small animations without considering our target audience and the users needs, we would have never been able to implement all the features.
 
 ## Social media promotion
 
