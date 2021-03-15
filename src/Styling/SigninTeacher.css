@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+.signin__img > img {
+  width: 549px;
+  height: 887px;
+  transform: translate(0%, 10%);
+}
+#c1 {
+  transform: translate(55%, -365%);
+  z-index: 3;
+  position: absolute;
+  height: 175.02px;
+  width: 143.16px;
+  cursor: pointer;
+}
+#c2 {
+  transform: translate(226%, -363%);
+    z-index: 3;
+    position: absolute;
+    height: 175.02px;
+    width: 143.16px;
+    cursor: pointer;
+}
+#c3 {
+  transform: translate(54%, -229%);
+    z-index: 3;
+    position: absolute;
+    height: 175.02px;
+    width: 143.16px;
+    cursor: pointer;
+}
+#c4 {
+  transform: translate(226%, -224%);
+  z-index: 3;
+  position: absolute;
+  height: 175.02px;
+  width: 142.16px;
+  cursor: pointer;
+}
+#c5 {
+  transform: translate(52%, -90%);
+    z-index: 3;
+    position: absolute;
+    height: 175.02px;
+    width: 143.16px;
+    cursor: pointer;
+}
+#c6 {
+  transform: translate(225%, -88%);
+  z-index: 3;
+  position: absolute;
+  height: 175.02px;
+  width: 143.16px;
+  cursor: pointer;
+}
+.text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 27px;
+  color: rgb(0, 0, 0, 0.7);
+  transform: translate(31%, 140%);
+  z-index: 3;
+  max-width: 500px;
+  font-weight: bold;
+  margin: 0;
+  position: absolute;
+}
+.Ellipse32 {
+  height: 25px;
+  width: 25px;
+  transform: translate(284%, 215%);
+}
+.Ellipse30 {
+  height: 28px;
+  width: 28px;
+  transform: translate(1315%, -33%);
+}
+.Ellipse27 {
+  height: 28px;
+  width: 28px;
+  transform: translate(2186%, 2803%);
+}
+.Ellipse28 {
+  height: 25px;
+  width: 25px;
+  transform: translate(4994%, 2222%);
+}
+.Ellipse29 {
+  height: 28px;
+  width: 28px;
+  transform: translate(3618%, 237%);
+}
+.Ellipse31 {
+  height: 23px;
+  width: 23px;
+  transform: translate(2540%, 891%);
+}
+
+.logo > img {
+  height: 119px;
+  width: 267px;
+  text-align: center;
+  font-size: 30px;
+  transform: translate(14%, 20%);
+  margin-right: 0;
+}
+#c1:hover, #c2:hover, #c3:hover, #c4:hover, #c5:hover, #c6:hover{
+  height: 180.02px;
+}
+.profilestudent {
+  right: 0;
+}
