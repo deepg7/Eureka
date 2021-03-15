@@ -48,6 +48,31 @@
   cursor: pointer;
   transform: translate(90%, 144%);
 }
+.signup_t:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: translate(90%, 150%);
+}
+.signup_s:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transform: translate(91%, 361%);
+}
+.signup_t-animated, .signup_s-animated {
+  animation: moveInBottom 5s ease-out;
+  animation-fill-mode: backwards;
+}
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+ }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+ }
+}
+
 .teacher > .card1 > p {
   color: rgb(0, 0, 0, 0.7);
   font-family: "Noto Serif";
@@ -77,6 +102,15 @@
   position: absolute;
   transform: translate(0%, 34%);
 }
+
+.bees2 > img {
+  animation: mover 1s infinite  alternate;
+}
+@keyframes mover {
+  0% { transform: translate(0%, 29%); }
+  100% { transform: translate(0%, 39%); }
+}
+
 .Ellipse50 {
   height: 25px;
   width: 25px;
@@ -95,5 +129,5 @@
 .Ellipse59 {
   height: 16px;
   width: 16px;
-  transform: translate(568%, 5700%);
+  transform: translate(1150%, 6164%);
 }

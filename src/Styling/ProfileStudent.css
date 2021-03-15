@@ -7,6 +7,13 @@
   height: 200px;
   margin-left: 130px;
 }
+.honeybee1 > img {
+  animation: mover 1s infinite  alternate;
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
 .names,
 .std {
   display: flex;
@@ -70,6 +77,7 @@
   align-items: center;
   /* cursor: pointer; */
 }
+
 .button {
   display: flex;
   justify-content: center;
@@ -78,20 +86,27 @@
 .address {
   padding-top: 20px;
 }
-.bee2 > img {
+.honeybee2 > img {
   min-width: 617px;
   transform: translate(10%, 14%);
   max-height: 168px;
+}
+
+.honeybee2 {
+  height: 100px;
+}
+.honeybee2 > img {
+  animation: mover 1s infinite  alternate;
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
 }
 .signin {
   max-height: 953px;
 }
 .signuppage {
   max-height: 953px;
-}
-
-.bee2 {
-  height: 100px;
 }
 .main__title > h1 {
   transform: translate(89%, 72%);

@@ -3,6 +3,7 @@ import "../Styling/ProfileStudent.css";
 import bee1 from "./images/bee1.png";
 import bee2 from "./images/bee2.png";
 import { db, auth } from "./firebase";
+import { Link } from "react-router-dom";
 
 function ProfileStudent() {
   const run = () => {
@@ -79,11 +80,13 @@ function ProfileStudent() {
           />
         </div>
         <div className="button">
-          <button className="btn" onClick={run}>
-            Let's Go
-          </button>
+          <Link to="/classroom">
+            <button className="btn" onClick={run}>
+              Let's Go
+            </button>
+          </Link>
         </div>
-        <div className="bee2">
+        <div className="honeybee2">
           <img src={bee2} />
         </div>
       </div>

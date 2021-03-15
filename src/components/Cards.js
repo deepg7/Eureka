@@ -25,7 +25,9 @@ function Cards() {
             <img src={teacher} />
             <p>Are you a teacher?</p>
             <div className="signup">
-              <button className="signup_t">Sign Up</button>
+              <Link to="/signupageteachers">
+                <button className="signup_t">Sign Up</button>
+              </Link>
             </div>
           </div>
         </div>

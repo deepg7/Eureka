@@ -2,6 +2,8 @@
   transform: translate(0%, 104%);
   background-color: #fdf1ad;
   min-height: 350px;
+  display: flex;
+  flex-direction: row;
 }
 .footer__left__logo > img {
   width: 269px;
@@ -16,4 +18,39 @@
   margin-left: 50px;
   font-size: 20px;
   color: rgb(0, 0, 0, 0.6);
+}
+.footer__right__team > .footer__img> img {
+  width: 169px;
+  height: 157px;
+}
+.footer__right__team > .footer__img> img:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.footer__right__team > .footer__img > img -animated{
+  animation: moveInBottom 5s ease-out;
+  animation-fill-mode: backwards;
+}
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+ }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+ }
+}
+.footer__heading {
+  text-align: center;
+}
+.footer__right__team {
+  margin-left: 158px;
+}
+.footer__names{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+  margin-top: -30px;
 }

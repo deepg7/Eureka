@@ -6,6 +6,22 @@ import { Link, Route } from "react-router-dom";
 
 function Meet() {
   var student = db.collection("students");
+  function getTaskUrls() {
+    student
+      .where("email", "==", "deepgandhi151@gmail.com")
+      .get()
+      .then((querySnapshot) => {
+        querySnapshot.forEach((doc) => {
+          var x = doc.data();
+          console.log(x.name);
+          window.open(x.urls[0]);
+        });
+      })
+      .catch((error) => {
+        console.log("Error getting documents: ", error);
+      });
+  }
+
   function tasks() {
     const desc = document.getElementById("assign__desc").value;
     const topic = document.getElementById("topic").value;
@@ -118,6 +134,13 @@ function Meet() {
               <Link to="/assignments">
                 <button className="submissions">Submissions</button>
               </Link>
+              <button
+                className="get__work"
+                id="get__work"
+                onClick={getTaskUrls}
+              >
+                Get Work
+              </button>
               <button className="assign__resources" onClick={tasks}>
                 Assign
               </button>

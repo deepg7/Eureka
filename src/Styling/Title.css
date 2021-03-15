@@ -50,3 +50,75 @@
   width: 25px;
   transform: translate(500%, 1200%);
 }
+.title__para > .line{
+  position: absolute;
+  height: 1px;
+  width: 949px;
+  transform: translate(20%, 74572%);
+  background: rgb(0, 0, 0, 0.08);
+  z-index: 3;
+}
+.title__para > .parahead{
+  position: absolute;
+  z-index: 3;
+  font-size: 23px;
+  color: rgb(0, 0, 0, 0.7);
+  transform: translate(530%, 1980%);
+  max-width: 300px;
+}
+.title__para > .para1{
+  position: absolute;
+  z-index: 3;
+  color: rgb(0, 0, 0, 0.7);
+  font-size: 23px;
+  max-width: 300px;
+  transform: translate(65%, 1142%);
+  text-align: center;
+}
+.title__para > .para2{
+  position: absolute;
+  z-index: 3;
+  color: rgb(0, 0, 0, 0.7);
+  font-size: 23px;
+  max-width: 300px;
+  transform: translate(176%, 1713%);
+  text-align: center;
+}
+.title__para > .para3{
+  position: absolute;
+  z-index: 3;
+  color: rgb(0, 0, 0, 0.7);
+  font-size: 23px;
+  max-width: 300px;
+  transform: translate(289%, 1137%);
+  text-align: center;
+}
+.title__para > .batch {
+  width: 96px;
+  height: 137px;
+  transform: translate(287%,564%);
+  position: absolute;
+  z-index: 3;
+}
+.title__para > .graph {
+  width: 143px;
+  height: 124px;
+  transform: translate(428%,625%);
+  position: absolute;
+  z-index: 3;
+}
+.title__para > .book {
+  width: 104px;
+  height: 113px;
+  transform: translate(929%,692%);
+  position: absolute;
+  z-index: 3;
+}
+.our__mission__content > p{
+  transform: translate(86%,354%);
+  max-width: 500px;
+  position: absolute;
+  z-index: 3;
+  color: rgb(0, 0, 0, 0.7);
+  font-size: 23px;
+}
